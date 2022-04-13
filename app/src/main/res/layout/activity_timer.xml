@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ozadje3"
+    tools:context=".Timer">
+
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_countdown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#9F482C63"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_countdown"
+        android:layout_toEndOf="@id/start_button"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#9F482C63"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:text="Reset"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="321dp"
+        android:layout_height="153dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="43dp"
+        app:srcCompat="@drawable/timerbackround">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="00:00"
+        android:textColor="@color/white"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/backtohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/start_button"
+        android:backgroundTint="#9E2A4542"
+        android:text="Back to home page" />
+
+
+
+</RelativeLayout>

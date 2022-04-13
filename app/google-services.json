@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765722853852",
+    "project_id": "littleh-ccde8",
+    "storage_bucket": "littleh-ccde8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765722853852:android:96427f84bbbbca2c288f19",
+        "android_client_info": {
+          "package_name": "com.example.littlehelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765722853852-pb8uq1j9asj1m6crrtthfamvbmglk696.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAME6NwXtEOOa_17p24EoqGMenX3cG8xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765722853852-pb8uq1j9asj1m6crrtthfamvbmglk696.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
